@@ -297,3 +297,4 @@ mousedown(e) {
  2. 手动实现类似antd-table相似的表格功能组件
 
 源码地址：https://github.com/mf-note/vue-virtual-drag-list
+npm地址：https://www.npmjs.com/package/vue-virtual-draglist
