@@ -7,8 +7,8 @@
 
 > * Html
 > * CSS/CSS3
-> * JS/ES6
-> * Typescript
+> * JavaScript/ES6
+> * TypeScript
 > * Vue/Vuex/VueRouter
 > * React/Redux
 > * Threejs/WebGL
