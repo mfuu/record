@@ -6,7 +6,7 @@
 文章分类
 
 > * Html
-> * Css/Css3
+> * CSS/CSS3
 > * JS/ES6
 > * Typescript
 > * Vue/Vuex/VueRouter
