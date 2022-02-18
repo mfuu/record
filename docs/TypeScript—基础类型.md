@@ -38,7 +38,7 @@ enum TestEnum {
 
 let dir: Direction = Diretion.FIRST
 ```
-默认情况下，FIRST 的初始值为 0，其余成员会从 1 开始自动增长。换句话说，TestEnum.SECOND 的值为 1，TestEnum.THIRD 的值为 2。  
+默认情况下，FIRST 的初始值为 0，其余成员会从 1 开始自动增长。换句话说，`TestEnum.SECOND` 的值为 1，`TestEnum.THIRD` 的值为 2。  
 我们也可以手动设置 FIRST 的初始值，如：
 ```ts
 enum TestEnum {
@@ -49,6 +49,7 @@ enum TestEnum {
 ```
 
 > 字符串枚举
+
 在一个字符串枚举里，每个成员都必须用字符串字面量，或另外一个字符串枚举成员进行初始化
 ```ts
 enum TestEnum {
@@ -59,6 +60,7 @@ enum TestEnum {
 ```
 
 > 异构枚举
+
 异构枚举的成员值是数字和字符串的混合：
 ```ts
 enum TestEnum {
