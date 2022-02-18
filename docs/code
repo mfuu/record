@@ -1,0 +1,64 @@
+class RangeList {
+  constructor(list) {
+    this.list = list || []
+  }
+  /**
+   * Adds a range to the list
+   * @param {Array} range Array of two integers that specify beginning and end of range
+   */
+  add(range) {
+    // let comin = `[${range.join(',')})`
+    // this.list.push(comin)
+    const temp = this._mergeInterval([...this.list, range])
+    this.list = temp
+  }
+
+  /**
+   * Remove a range from the list
+   * @param {Array} range Array of two integers that specify beginning and end of range
+   */
+  remove(range) {
+    
+  }
+
+  /**
+   * Prints out the list of ranges in the range list
+   */
+  print() {
+    console.log(this.list)
+  }
+
+  /**
+   * merge interval, returns the result of the merged interval
+   * @param {Array} tdArr User added data, Two-dimensional array
+   */
+  _mergeInterval(tdArr) {
+    const result = []
+    tdArr.sort((a, b) => a[0] - b[0])
+    for(let i = 0; i < tdArr.length; i++) {
+      if (i != tdArr.length - 1 && tdArr[i][1] >= tdArr[i + 1][0]) {
+        if (tdArr[i][1] >= tdArr[i + 1][1]) {
+          tdArr[i + 1][1] = tdArr[i][1]
+        }
+        tdArr[i + 1][0] = tdArr[i][0]
+      } else {
+        result.push(tdArr[i])
+      }
+    }
+    return result
+  }
+}
+
+const rl = new RangeList()
+
+rl.add([1, 5])
+rl.print()
+
+rl.add([10, 20])
+rl.print()
+
+rl.add([20, 20])
+rl.print()
+
+rl.add([20, 21])
+rl.print()
