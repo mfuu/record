@@ -80,7 +80,7 @@ class RangeList {
   }
 }
 
-const rl = new RangeList()
+const rl = new RangeList() // or `const rl = new RangeList([1, 5])`
 
 rl.add([1, 5])
 rl.print()
