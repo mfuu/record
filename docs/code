@@ -1,14 +1,12 @@
 class RangeList {
   constructor(list) {
-    this.list = list || []
+    this.list = list ? [list] : []
   }
   /**
    * Adds a range to the list
    * @param {Array} range Array of two integers that specify beginning and end of range
    */
   add(range) {
-    // let comin = `[${range.join(',')})`
-    // this.list.push(comin)
     const temp = this._mergeInterval([...this.list, range])
     this.list = temp
   }
@@ -18,7 +16,14 @@ class RangeList {
    * @param {Array} range Array of two integers that specify beginning and end of range
    */
   remove(range) {
-    
+    const leftIndex = 
+    for(let i = 0; i < this.list.length; i++) {
+      const left = this.list[i][0]
+      const right = this.list[i][1]
+      if (left < range[0] && right > range[1]) {
+        this.list.splice(i, 1, [left, range[0]], [range[1], right])
+      } else if (left )
+    }
   }
 
   /**
@@ -28,21 +33,49 @@ class RangeList {
     console.log(this.list)
   }
 
+  _binarySearch(num) {
+    let low = 0, high = this.list.length - 1
+    while(low <= high) {
+      const middle = Math.trunc((high + low) / 2)
+      const cur = Math.abs(this.list[middle])
+      if (num < cur) {}
+    }
+  }
+
+//   RangeModule.prototype.binarySearch = function (val) {
+//     let low = 0, high = this.ranges.length - 1;
+//     while (low <= high) {
+//         const mid = Math.trunc((high + low) / 2);
+//         const curValue = Math.abs(this.ranges[mid]);
+//         switch (true) {
+//             case val < curValue:
+//                 high = mid - 1;
+//                 break;
+//             case val > curValue:
+//                 low = mid + 1;
+//                 break;
+//             case val == curValue:
+//                 return mid;
+//         }
+//     }
+//     return low;
+// }
+
   /**
    * merge interval, returns the result of the merged interval
-   * @param {Array} tdArr User added data, Two-dimensional array
+   * @param {Array} array User added data, Two-dimensional array
    */
-  _mergeInterval(tdArr) {
+  _mergeInterval(array) {
     const result = []
-    tdArr.sort((a, b) => a[0] - b[0])
-    for(let i = 0; i < tdArr.length; i++) {
-      if (i != tdArr.length - 1 && tdArr[i][1] >= tdArr[i + 1][0]) {
-        if (tdArr[i][1] >= tdArr[i + 1][1]) {
-          tdArr[i + 1][1] = tdArr[i][1]
+    array.sort((a, b) => a[0] - b[0])
+    for(let i = 0; i < array.length; i++) {
+      if (i != array.length - 1 && array[i][1] >= array[i + 1][0]) {
+        if (array[i][1] >= array[i + 1][1]) {
+          array[i + 1][1] = array[i][1]
         }
-        tdArr[i + 1][0] = tdArr[i][0]
+        array[i + 1][0] = array[i][0]
       } else {
-        result.push(tdArr[i])
+        result.push(array[i])
       }
     }
     return result
@@ -62,3 +95,10 @@ rl.print()
 
 rl.add([20, 21])
 rl.print()
+
+rl.add([2, 4])
+rl.print()
+
+rl.add([3, 8])
+rl.print()
+  
