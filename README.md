@@ -26,6 +26,8 @@
   
 * JS/ES6
 
+  * [现代 JavaScript 教程](https://zh.javascript.info/)
+ 
   * [深入理解js事件循环机制（Node.js）](https://github.com/mf-note/Blog/issues/2)
 
   * [深入理解js事件循环机制（浏览器）](https://github.com/mf-note/Blog/issues/3)
