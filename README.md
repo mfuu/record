@@ -43,4 +43,4 @@
 
 * 其他
 
-  * [前端面试百问百答](https://mp.weixin.qq.com/s/weHmcv9mlb--ZOq8lvyq0w)
+  * [100道JavaScript面试题](https://juejin.cn/post/6992525007716876325)
