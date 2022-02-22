@@ -32,6 +32,8 @@
 
   * [深入理解js事件循环机制（浏览器）](https://github.com/mf-note/Blog/issues/3)
 
+  * [ES6—迭代器(Iterator)和生成器(Generator)](https://github.com/mf-note/Blog/issues/6)
+
   
 * 网络
 
