@@ -34,6 +34,9 @@
 
   * [ES6—迭代器(Iterator)和生成器(Generator)](https://github.com/mf-note/Blog/issues/6)
 
+* TypeScript
+
+  * [TypeScript基础知识](https://github.com/mf-note/Blog/tree/main/docs/TypeScript)
   
 * 网络
 
