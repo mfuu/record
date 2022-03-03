@@ -25,7 +25,7 @@
 
   * [$nextTick()实现原理（面试题）](https://github.com/mf-note/Blog/issues/7)
 
-  * [vue2与vue3双向绑定原理（面试题）]()
+  * [vue2与vue3双向绑定原理（面试题）](https://github.com/mf-note/Blog/issues/8)
 
 
   
@@ -37,7 +37,7 @@
 
   * [深入理解js事件循环机制（浏览器）](https://github.com/mf-note/Blog/issues/3)
 
-  * [ES6—迭代器(Iterator)和生成器(Generator)](https://github.com/mf-note/Blog/issues/6)
+  * [ES6—迭代器(Iterator)和生成器(Generator)（面试题）](https://github.com/mf-note/Blog/issues/6)
 
 * TypeScript
 
