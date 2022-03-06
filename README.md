@@ -25,7 +25,7 @@
 
   * [$nextTick()实现原理（面试题）](https://github.com/mf-note/Blog/issues/7)
 
-  * [vue2与vue3双向绑定原理（面试题）](https://github.com/mf-note/Blog/issues/8)
+  * [双向绑定原理（面试题）](https://github.com/mf-note/Blog/issues/8)
 
 
   
