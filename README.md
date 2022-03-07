@@ -23,9 +23,9 @@
 
   * [封装一个可拖拽排序的虚拟滚动列表组件](https://github.com/mf-note/Blog/issues/1)
 
-  * [$nextTick()实现原理（面试题）](https://github.com/mf-note/Blog/issues/7)
+  * [vue—$nextTick实现原理（面试题）](https://github.com/mf-note/Blog/issues/7)
 
-  * [双向绑定原理（面试题）](https://github.com/mf-note/Blog/issues/8)
+  * [vue—双向绑定原理（面试题）](https://github.com/mf-note/Blog/issues/8)
 
 
   
