@@ -1,6 +1,6 @@
 # 🌱 MF 的博客，记录学习工作的点点滴滴
 
-**部分基础知识内容放在doc文件夹下，也可以去我的[GitHub Page](https://mf-note.github.io/)查看更多内容**
+**部分基础知识内容放在doc文件夹下，也可以去我的 [GitHub Page](https://mf-note.github.io/) 查看更多内容**
 
 
 ## 🌱 文章分类
@@ -11,7 +11,6 @@
 > * TypeScript
 > * Vue/Vuex/VueRouter
 > * React/Redux
-> * Threejs/WebGL
 > * NodeJS
 > * Web
 > * 网络
@@ -47,9 +46,9 @@
 
 * Web
   
-  * [浏览器渲染机制](https://github.com/mf-note/Blog/issues/10)
-
   * [前端性能优化](https://github.com/mf-note/Blog/issues/9)
+
+  * [浏览器渲染机制](https://github.com/mf-note/Blog/issues/10)
 
   * [浏览器存储](https://github.com/mf-note/Blog/issues/11)
 
