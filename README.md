@@ -1,6 +1,6 @@
 # 🌱 MF 的博客，记录学习工作的点点滴滴
 
-**部分基础知识内容放在doc文件夹下，也可以去我的 [GitHub Page](https://mf-note.github.io/) 查看更多内容**
+**部分基础知识内容放在doc文件夹下，也可以去我的 [GitHub Page](https://mfuu.github.io/) 查看更多内容**
 
 
 ## 🌱 文章分类
