@@ -21,8 +21,6 @@
 ## 🌱 文章列表
 * Vue/Vuex/VueRouter
 
-  * [封装一个可拖拽排序的虚拟滚动列表组件](https://github.com/mfuu/Blog/issues/1)
-
   * [vue—$nextTick实现原理（面试题）](https://github.com/mfuu/Blog/issues/7)
 
   * [vue—双向绑定原理（面试题）](https://github.com/mfuu/Blog/issues/8)
