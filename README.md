@@ -64,3 +64,5 @@
   * [面试总结](https://mfuu.github.io/2020/02/02/%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98/)
   
   * [前端面试指南](https://interview2.poetries.top/)
+
+* [my blog](https://mfuu.github.io)
